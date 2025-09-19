@@ -1,5 +1,5 @@
 ---
-pagetitle: "Real World Data Science"
+pagetitle: "Comic Book Research Lab"
 page-layout: custom
 section-divs: false
 editor: source
@@ -7,7 +7,7 @@ sidebar: false
 search: false
 repo-actions: false
 description: | 
-  A showcase for data science in action, brought to you by the Royal Statistical Society in partnership with the American Statistical Association.
+  A showcase for data science in action, brought to you by the Royal Statistical Society in partnership with local comic book stores and comic science practitioners
 image: images/rwds-logo-150px.png
 listing:
   - id: latest-content
@@ -17,7 +17,6 @@ listing:
     - /foundation-frontiers
     - /people-paths
     - "!index.qmd"
-    - "!editors-relaunch.qmd"
     sort: "date desc"
     type: grid
     categories: false

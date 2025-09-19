@@ -1,27 +1,22 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Real World Data Science"
+  title: "Comic Book Research Lab"
   image: images/rwds-logo-150px.png
   favicon: images/rwds-favicon.png
   twitter-card:
     site: "@rwdatasci"
   open-graph: true
   site-url: https://realworlddatascience.net/
-  repo-url: https://github.com/realworlddatascience/realworlddatascience.github.io
+  repo-url: https://github.com/jpkelley/comicbookresearchlab
   repo-actions: [edit, issue]
-  # If you are forking our repo to develop content -- whether for Real World Data Science 
-  # or your own purposes -- please disable our Google Analytics tag during development.
-  # If building your own site, replace our GA tag with your own GA tag before deployment.
-  # This will prevent your activity being tracked and counted in our analytics dashboard.
-  # Thank you!
-  google-analytics: "G-1TTWB7YTR6"
   navbar:
     toggle-position: right
     background: "#f0eeeb"
     logo: images/rwds-logo-150px.png
-    logo-alt: "Real World Data Science brand"
+    logo-alt: "Comic Book Research Lab"
     title: false
     collapse-below: lg
     right:
@@ -30,7 +25,7 @@ website:
       - foundation-frontiers/index.qmd
       - people-paths/index.qmd
       - text: "About RWDS"
-        menu: 
+        menu:
         - text: "Who we are"
           href: about-rwds.qmd
         - text: "How to contribute"
@@ -39,7 +34,7 @@ website:
           href: CODE_OF_CONDUCT.md
         - text: "Contact us"
           href: contact.qmd
-  sidebar: 
+  sidebar:
     - title: "About us"
       contents:
         - about-rwds.qmd
@@ -71,7 +66,7 @@ website:
         - ideas/tutorials/index.qmd
         - ideas/datasciencebites/index.qmd
     - title: "The Pulse"
-      contents: 
+      contents:
         - the-pulse/index.qmd
         - the-pulse/editors-blog/index.qmd
         - href: the-pulse/newsletter/index.qmd
@@ -118,5 +113,5 @@ format:
       body-width: 1000px
       margin-width: 250px
 
-execute: 
+execute:
   freeze: auto
