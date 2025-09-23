@@ -118,3 +118,36 @@ body {
     flex-direction: column;
   }
 }
+
+/* hide any default site title that still shows */
+.navbar-title, .site-title, header h1 {
+  display: none !important;
+}
+
+/* layout for the Latest Work section */
+.latest-work {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.latest-work .work-item {
+  flex: 1 1 30%;        /* each takes ~30% of width */
+  box-sizing: border-box;
+  background: #f8f8f8;  /* optional styling */
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+/* stack on small screens */
+@media (max-width: 768px) {
+  .latest-work {
+    flex-direction: column;
+  }
+
+  .latest-work .work-item {
+    flex: 1 1 100%;
+  }
+}

@@ -1,5 +1,5 @@
 ---
-title: "Comic Book Research Lab"
+title: ""
 format: html
 page-layout: full
 ---
@@ -37,28 +37,22 @@ Short blurb here.
 :::
 :::
 
-::: appraisal-donate
-::: appraisal-box
-![](images/appraisal.jpg) **Need a rapid and respectful appraisal?**
-:::
-
-::: donate-box
-![](images/donate.jpg) **Donate for Research**
-:::
-:::
-
 ::: latest-work
-## Latest Work
+::: work-item
+### Project One
 
-::: post
-![](images/post1.jpg) **Post Title 1** – short intro. [Read more »](posts/post1.qmd)
+Short description here.
 :::
 
-::: post
-![](images/post2.jpg) **Post Title 2** – short intro. [Read more »](posts/post2.qmd)
+::: work-item
+### Project Two
+
+Short description here.
 :::
 
-::: post
-![](images/post3.jpg) **Post Title 3** – short intro. [Read more »](posts/post3.qmd)
+::: work-item
+### Project Three
+
+Short description here.
 :::
 :::
