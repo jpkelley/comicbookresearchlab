@@ -4,19 +4,18 @@ project:
 website:
   title: "Comic Book Research Lab"
   navbar:
-    background: white
     left:
-      - text: "Comic Book Research Lab"
-        href: index.qmd
-    right:
-      - text: "Research"
-        href: research.qmd
-      - text: "Appraisal"
-        href: appraisal.qmd
-      - text: "Resources"
-        href: resources.qmd
-      - text: "About"
-        href: about.qmd
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: blog.qmd
+        text: Blog
+      - href: contact.qmd
+        text: Contact
+  page-footer:
+    center: "© 2025 Comic Book Research Lab — All Rights Reserved"
+    background: light
 
 format:
   html:

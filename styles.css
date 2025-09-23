@@ -1,111 +1,68 @@
-/* General site background */
+/* Base reset & typography */
 body {
-  background-color: white;
-  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #222222;
   margin: 0;
   padding: 0;
 }
 
-/* Navbar styling */
+/* Navbar */
 .navbar {
-  background-color: white !important;
-  border-bottom: 1px solid #ddd;
+  background-color: #ffffff !important;
+  border-bottom: 3px solid #B3D5E5;
 }
 
-.navbar .navbar-brand {
-  font-weight: bold;
-  font-size: 1.2em;
-  color: black !important;
+.navbar-brand, .navbar-nav .nav-link {
+  color: #222222 !important;
+  font-weight: 600;
 }
 
-.navbar .nav-link {
-  color: black !important;
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+  color: #F86282 !important; /* red hover */
 }
 
-/* Intro blue box with yellow/red accent */
-.intro-box {
-  background-color: #0044cc; /* deep blue */
-  color: white;
-  padding: 2em;
-  margin-top: 0;
+/* Hero section */
+.hero-section {
+  background-color: #B3D5E5;
+  color: #222222;
   text-align: center;
-  border-top: 6px solid #ffcc00; /* yellow accent bar */
+  padding: 3rem 1rem;
+  border-top: 6px solid #F8FF6F; /* yellow top accent */
+  border-bottom: 6px solid #F86282; /* red bottom accent */
 }
 
-/* Mission section */
-.mission {
-  background: white;
-  padding: 2em;
-  text-align: center;
+.hero-section h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
 }
 
-.mission-sections {
-  display: flex;
-  justify-content: space-around;
-  gap: 1.5em;
-  flex-wrap: wrap;
+.hero-section p {
+  font-size: 1.2rem;
 }
 
-.mission-item {
-  flex: 1;
-  min-width: 200px;
-  padding: 1em;
+/* Section defaults */
+.about-section, .blog-section, .contact-section {
+  padding: 3rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  border-bottom: 1px solid #eee;
 }
 
-.icon {
-  width: 40px;
-  margin-bottom: 0.5em;
-}
-
-/* Callout boxes (side by side) */
-.callouts {
-  display: flex;
-  justify-content: space-around;
-  padding: 2em;
-  gap: 1em;
-  flex-wrap: wrap;
-}
-
-.callout-box {
-  background: #f4f4f4;
-  border-left: 5px solid #ff0000; /* red accent */
-  padding: 1em;
-  flex: 1;
-  min-width: 250px;
-  display: flex;
-  align-items: center;
-  gap: 1em;
-}
-
-.callout-box img {
-  width: 60px;
-}
-
-/* Latest Work */
-.latest-work {
-  padding: 2em;
-}
-
-.blog-grid {
-  display: flex;
-  gap: 1em;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.blog-item {
-  background: #f9f9f9;
-  padding: 1em;
-  border: 1px solid #ddd;
-  flex: 1;
-  min-width: 250px;
+.about-section h2,
+.blog-section h2,
+.contact-section h2 {
+  color: #F86282; /* red headings */
+  margin-bottom: 1rem;
 }
 
 /* Footer */
-.footer {
-  background-color: #0044cc; /* same blue */
-  color: white;
+.page-footer {
+  background-color: #B3D5E5;
+  color: #222222;
   text-align: center;
-  padding: 1em;
-  border-top: 4px solid #ff0000; /* red accent bar */
+  padding: 1rem;
+  border-top: 4px solid #F86282;
+  font-size: 0.9rem;
 }

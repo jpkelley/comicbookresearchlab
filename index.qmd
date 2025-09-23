@@ -2,80 +2,14 @@
 title: "Home"
 ---
 
-::: intro-box
-### Welcome to the Comic Book Research Lab
+::: hero-section
+# Welcome to the Comic Book Research Lab
 
-We explore the history, culture, and preservation of comic books — from superhero origins to modern collecting practices.
+Exploring the history, culture, and artistry of comic books.
 :::
 
-::: mission
+::: content-section
 ## Our Mission
 
-::: mission-sections
-::: mission-item
-```         
-<img src="icon1.png" alt="icon 1" class="icon"/>
-<p>Rapid and respectful comic appraisal.</p>
-```
-:::
-
-::: mission-item
-```         
-<img src="icon2.png" alt="icon 2" class="icon"/>
-<p>Research into comic book history and culture.</p>
-```
-:::
-
-::: mission-item
-```         
-<img src="icon3.png" alt="icon 3" class="icon"/>
-<p>Educational resources for collectors.</p>
-```
-:::
-:::
-:::
-
-::: callouts
-::: callout-box
-<img src="appraisal.png" alt="Appraisal"/>
-
-<p><strong>Need a rapid and respectful appraisal?</strong></p>
-:::
-
-::: callout-box
-<img src="donate.png" alt="Donate"/>
-
-<p><strong>Donate for Research</strong></p>
-:::
-:::
-
-::: latest-work
-## Latest Work
-
-::: blog-grid
-::: blog-item
-```         
-<img src="blog1.png" alt="Blog 1"/>
-<p>Article title and intro text here.</p>
-```
-:::
-
-::: blog-item
-```         
-<img src="blog2.png" alt="Blog 2"/>
-<p>Another article intro blurb here.</p>
-```
-:::
-
-::: blog-item
-```         
-<img src="blog3.png" alt="Blog 3"/>
-<p>Third article summary here.</p>
-```
-:::
-:::
-:::
-
-::: footer
-<p>© 2025 Comic Book Research Lab \| Contact: info\@comicbookresearchlab.com</p>
+We study the stories, art, and cultural impact of superhero comics from the Golden Age to today.
 :::
