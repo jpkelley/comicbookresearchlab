@@ -1,23 +1,27 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Comic Book Research Lab"
   navbar:
+    background: white
     left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-      - href: blog.qmd
-        text: Blog
-      - href: contact.qmd
-        text: Contact
+      - text: "Research"
+        href: research.qmd
+      - text: "Appraisal"
+        href: appraisal.qmd
+      - text: "Resources"
+        href: resources.qmd
+      - text: "About"
+        href: about.qmd
   page-footer:
     center: "© 2025 Comic Book Research Lab — All Rights Reserved"
     background: light
 
 format:
   html:
-    theme: default
+    theme: cosmo
     css: styles.css
+    page-layout: full
+
