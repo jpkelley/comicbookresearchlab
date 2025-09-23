@@ -1,64 +1,81 @@
 ---
-title: "Comic Book Research Lab"
-format: html
-page-layout: full
+title: "Home"
 ---
 
-::: hero
+::: intro-box
 ### Welcome to the Comic Book Research Lab
 
-::: welcome-box
-::: welcome-images
-![](images/pic1.jpg) ![](images/pic2.jpg) ![](images/pic3.jpg) ![](images/pic4.jpg) ![](images/pic5.jpg)
+We explore the history, culture, and preservation of comic books — from superhero origins to modern collecting practices.
 :::
 
-::: welcome-message
-**Welcome Message**: Our lab studies the cultural and economic history of superhero comics.
-:::
-:::
-:::
-
-::: missions
+::: mission
 ## Our Mission
 
-::: mission
-![](icons/icon1.png){.icon} **Mission 1**\
-Short blurb here.
+::: mission-sections
+::: mission-item
+```         
+<img src="icon1.png" alt="icon 1" class="icon"/>
+<p>Rapid and respectful comic appraisal.</p>
+```
 :::
 
-::: mission
-![](icons/icon2.png){.icon} **Mission 2**\
-Short blurb here.
+::: mission-item
+```         
+<img src="icon2.png" alt="icon 2" class="icon"/>
+<p>Research into comic book history and culture.</p>
+```
 :::
 
-::: mission
-![](icons/icon3.png){.icon} **Mission 3**\
-Short blurb here.
+::: mission-item
+```         
+<img src="icon3.png" alt="icon 3" class="icon"/>
+<p>Educational resources for collectors.</p>
+```
 :::
 :::
-
-::: appraisal-donate
-::: appraisal-box
-![](images/appraisal.jpg) **Need a rapid and respectful appraisal?**
 :::
 
-::: donate-box
-![](images/donate.jpg) **Donate for Research**
+::: callouts
+::: callout-box
+<img src="appraisal.png" alt="Appraisal"/>
+
+<p><strong>Need a rapid and respectful appraisal?</strong></p>
+:::
+
+::: callout-box
+<img src="donate.png" alt="Donate"/>
+
+<p><strong>Donate for Research</strong></p>
 :::
 :::
 
 ::: latest-work
 ## Latest Work
 
-::: post
-![](images/post1.jpg) **Post Title 1** – short intro. [Read more »](posts/post1.qmd)
+::: blog-grid
+::: blog-item
+```         
+<img src="blog1.png" alt="Blog 1"/>
+<p>Article title and intro text here.</p>
+```
 :::
 
-::: post
-![](images/post2.jpg) **Post Title 2** – short intro. [Read more »](posts/post2.qmd)
+::: blog-item
+```         
+<img src="blog2.png" alt="Blog 2"/>
+<p>Another article intro blurb here.</p>
+```
 :::
 
-::: post
-![](images/post3.jpg) **Post Title 3** – short intro. [Read more »](posts/post3.qmd)
+::: blog-item
+```         
+<img src="blog3.png" alt="Blog 3"/>
+<p>Third article summary here.</p>
+```
 :::
+:::
+:::
+
+::: footer
+<p>© 2025 Comic Book Research Lab \| Contact: info\@comicbookresearchlab.com</p>
 :::

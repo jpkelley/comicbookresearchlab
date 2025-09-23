@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "We explore the history, culture, and preservation of comic books — from superhero origins to modern collecting practices."
+  },
+  {
+    "objectID": "index.html#our-mission",
+    "href": "index.html#our-mission",
+    "title": "Home",
+    "section": "Our Mission",
+    "text": "Our Mission\n\n\n&lt;img src=\"icon1.png\" alt=\"icon 1\" class=\"icon\"/&gt;\n&lt;p&gt;Rapid and respectful comic appraisal.&lt;/p&gt;\n\n\n&lt;img src=\"icon2.png\" alt=\"icon 2\" class=\"icon\"/&gt;\n&lt;p&gt;Research into comic book history and culture.&lt;/p&gt;\n\n\n&lt;img src=\"icon3.png\" alt=\"icon 3\" class=\"icon\"/&gt;\n&lt;p&gt;Educational resources for collectors.&lt;/p&gt;"
+  },
+  {
+    "objectID": "index.html#latest-work",
+    "href": "index.html#latest-work",
+    "title": "Home",
+    "section": "Latest Work",
+    "text": "Latest Work\n\n\n&lt;img src=\"blog1.png\" alt=\"Blog 1\"/&gt;\n&lt;p&gt;Article title and intro text here.&lt;/p&gt;\n\n\n&lt;img src=\"blog2.png\" alt=\"Blog 2\"/&gt;\n&lt;p&gt;Another article intro blurb here.&lt;/p&gt;\n\n\n&lt;img src=\"blog3.png\" alt=\"Blog 3\"/&gt;\n&lt;p&gt;Third article summary here.&lt;/p&gt;"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  }
+]
