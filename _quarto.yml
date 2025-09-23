@@ -15,9 +15,9 @@ website:
         href: resources.qmd
       - text: "About"
         href: about.qmd
-  page-footer:
+page-footer:
     center: "© 2025 Comic Book Research Lab — All Rights Reserved"
-    background:
+    background: "#B3D5E5"
 
 
 format:

@@ -1,19 +1,23 @@
 ---
-title: ""
+title: "Comic Book Research Lab"
 format: html
 page-layout: full
 ---
 
 ::: hero
-### Welcome to the Comic Book Research Lab
-
 ::: welcome-box
-::: welcome-images
-![](images/pic1.jpg) ![](images/pic2.jpg) ![](images/pic3.jpg) ![](images/pic4.jpg) ![](images/pic5.jpg)
-:::
+```         
+![](images/pic1.jpg)
+![](images/pic2.jpg)
+![](images/pic3.jpg)
+![](images/pic4.jpg)
+![](images/pic5.jpg)
+```
 
 ::: welcome-message
-**Welcome Message**: Our lab studies the cultural and economic history of superhero comics.
+```         
+**Welcome to the Comic Book Research Lab**: Our lab studies the cultural and economic history of superhero comics.  
+```
 :::
 :::
 :::
@@ -37,22 +41,37 @@ Short blurb here.
 :::
 :::
 
-::: latest-work
-::: work-item
-### Project One
-
-Short description here.
+::: appraisal-donate
+::: appraisal-box
+![](images/appraisal.jpg) **Need a rapid and respectful appraisal?**
 :::
 
-::: work-item
-### Project Two
-
-Short description here.
+::: donate-box
+![](images/donate.jpg) **Donate for Research**
+:::
 :::
 
-::: work-item
-### Project Three
+## Latest Work
 
-Short description here.
+::: latest-work-container
+::: post
+```         
+![](images/post1.jpg)
+**Post Title 1** – short intro. [Read more »](posts/post1)
+```
+:::
+
+::: post
+```         
+![](images/post2.jpg)
+**Post Title 2** – short intro. [Read more »](posts/post2)
+```
+:::
+
+::: post
+```         
+![](images/post3.jpg)
+**Post Title 3** – short intro. [Read more »](posts/post3)
+```
 :::
 :::

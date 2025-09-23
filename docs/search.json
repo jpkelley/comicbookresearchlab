@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Comic Book Research Lab",
     "section": "",
-    "text": "Welcome Message: Our lab studies the cultural and economic history of superhero comics."
+    "text": "![](images/pic1.jpg)\n![](images/pic2.jpg)\n![](images/pic3.jpg)\n![](images/pic4.jpg)\n![](images/pic5.jpg)\n\n**Welcome to the Comic Book Research Lab**: Our lab studies the cultural and economic history of superhero comics."
   },
   {
     "objectID": "index.html#our-mission",
@@ -18,7 +18,7 @@
     "href": "index.html#latest-work",
     "title": "Comic Book Research Lab",
     "section": "Latest Work",
-    "text": "Latest Work\n\n Post Title 1 – short intro. Read more »\n\n\n Post Title 2 – short intro. Read more »\n\n\n Post Title 3 – short intro. Read more »"
+    "text": "Latest Work\n\n\n![](images/post1.jpg)\n**Post Title 1** – short intro. [Read more »](posts/post1)\n\n\n![](images/post2.jpg)\n**Post Title 2** – short intro. [Read more »](posts/post2)\n\n\n![](images/post3.jpg)\n**Post Title 3** – short intro. [Read more »](posts/post3)"
   },
   {
     "objectID": "about.html",
