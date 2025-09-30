@@ -1,0 +1,72 @@
+---
+title: "Comic Book Research Lab"
+format: html
+page-layout: full
+---
+
+::: hero
+::: welcome-box 
+
+:::
+
+::: welcome-message
+```         
+**Welcome to the Comic Book Research Lab**: Our lab studies the cultural and economic history of superhero comics.  
+```
+:::
+:::
+:::
+
+::: missions
+## Our Mission
+
+::: mission
+![](icons/icon1.png){.icon} **Mission 1**\
+Short blurb here.
+:::
+
+::: mission
+![](icons/icon2.png){.icon} **Mission 2**\
+Short blurb here.
+:::
+
+::: mission
+![](icons/icon3.png){.icon} **Mission 3**\
+Short blurb here.
+:::
+:::
+
+::: appraisal-donate
+::: appraisal-box
+![](images/appraisal.jpg) **Need a rapid and respectful appraisal?**
+:::
+
+::: donate-box
+![](images/donate.jpg) **Donate for Research**
+:::
+:::
+
+## Latest Work
+
+::: latest-work-container
+::: post
+```         
+![](images/post1.jpg)
+**Post Title 1** – short intro. [Read more »](posts/post1)
+```
+:::
+
+::: post
+```         
+![](images/post2.jpg)
+**Post Title 2** – short intro. [Read more »](posts/post2)
+```
+:::
+
+::: post
+```         
+![](images/post3.jpg)
+**Post Title 3** – short intro. [Read more »](posts/post3)
+```
+:::
+:::

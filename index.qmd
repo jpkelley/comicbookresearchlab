@@ -9,7 +9,7 @@ page-layout: full
 
 ::::: welcome-box
 ::: welcome-images
-![](images/pic1.jpg) ![](images/pic2.jpg) ![](images/pic3.jpg) ![](images/pic4.jpg) ![](images/pic5.jpg)
+![](images/pic1.jpg) 
 :::
 
 ::: welcome-message
@@ -22,17 +22,17 @@ page-layout: full
 ## Our Mission
 
 ::: mission
-![](icons/icon1.png){.icon} **Mission 1**\
+![](icons/icon1.png){.icon} **Research**\
 Short blurb here.
 :::
 
 ::: mission
-![](icons/icon2.png){.icon} **Mission 2**\
+![](icons/icon2.png){.icon} **Appraisal**\
 Short blurb here.
 :::
 
 ::: mission
-![](icons/icon3.png){.icon} **Mission 3**\
+![](icons/icon3.png){.icon} **Education**\
 Short blurb here.
 :::
 ::::::
@@ -51,14 +51,14 @@ Short blurb here.
 ## Latest Work
 
 ::: post
-![](images/post1.jpg) **Post Title 1** – short intro. [Read more »](posts/post1.qmd)
+![](images/post1.jpg) **The Aroma of Nostalgia** – short intro. [Read more »](posts/post1.qmd)
 :::
 
 ::: post
-![](images/post2.jpg) **Post Title 2** – short intro. [Read more »](posts/post2.qmd)
+![](images/post2.jpg) **Slabbin' Profits** – short intro. [Read more »](posts/post2.qmd)
 :::
 
 ::: post
-![](images/post3.jpg) **Post Title 3** – short intro. [Read more »](posts/post3.qmd)
+![](images/post3.jpg) **Epidemic of the Slabbed** – short intro. [Read more »](posts/post3.qmd)
 :::
 ::::::

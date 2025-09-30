@@ -4,13 +4,13 @@ project:
 
 website:
   title: "Comic Book Research Lab"
-  favicon: images/logo-circle.png
+  favicon: images/cbrl_circ_logo.png
 
   # Top navbar: logo appears left (brand), links on the right.
   navbar:
+    logo: images/cbrl_handle_logo.png
     left:
-      - icon: images/logo-circle.png
-        href: index.qmd
+      - href: index.qmd
         text: "Comic Book Research Lab"
     right:
       - text: "Research"
@@ -24,9 +24,10 @@ website:
 
 format:
   html:
-    theme: cosmo
+    include-in-header: fonts.html
+    theme: litera
     css: styles.css
-    toc: false
+    toc: true
 
 # Optional: site metadata useful for search/sharing
 site-url: "https://jpkelley.github.io/comicbookresearchlab"
