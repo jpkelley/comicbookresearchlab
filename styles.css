@@ -1,0 +1,191 @@
+/* === Base Colors (Superhero Inspired) === */
+:root {
+  --primary: #1b2a49;   /* deep navy background */
+  --accent-red: #e63946; /* bold red */
+  --accent-yellow: #f5bf53; /* golden yellow */
+  --muted-gray: #f4f4f4; /* light gray for sections */
+  --text-dark: #2c3e50;  /* dark gray-blue for text */
+  --text-light: #ffffff; /* white */
+}
+
+/* === Global Styles === */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: var(--muted-gray);
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+/* === Navbar === */
+.navbar {
+  background-color: var(--primary);
+  color: var(--text-light);
+  padding: 0.8rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  color: var(--text-light);
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: var(--accent-yellow);
+}
+
+/* === Hero Section (Welcome) === */
+.hero {
+  background: var(--primary);
+  color: var(--text-light);
+  padding: 3rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome-images img {
+  max-width: 120px;
+  margin: 0.3rem;
+  border-radius: 6px;
+}
+
+.welcome-message {
+  max-width: 400px;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+
+/* === Missions Section === */
+.missions {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 2rem 1rem;
+  background: var(--text-light);
+}
+
+.mission {
+  flex: 1;
+  margin: 0 1rem;
+  padding: 1.5rem;
+  background: var(--muted-gray);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.mission .icon {
+  width: 60px;
+  margin-bottom: 1rem;
+}
+
+.mission h3 {
+  color: var(--accent-red);
+}
+
+/* === Appraisal & Donate Section === */
+.appraisal-donate {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 1.5rem;
+  justify-content: space-around;
+}
+
+.appraisal-box, .donate-box {
+  flex: 1;
+  min-width: 250px;
+  background: var(--primary);
+  color: var(--text-light);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.appraisal-box img, .donate-box img {
+  width: 100px;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+.appraisal-box:hover, .donate-box:hover {
+  background: var(--accent-red);
+  transition: 0.3s;
+}
+
+/* === Latest Work === */
+.latest-work {
+  background: var(--text-light);
+  padding: 2rem 1rem;
+}
+
+.latest-work h2 {
+  border-bottom: 3px solid var(--accent-yellow);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.post {
+  display: inline-block;
+  width: 30%;
+  min-width: 220px;
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 1px solid var(--muted-gray);
+  border-radius: 8px;
+  background: var(--muted-gray);
+  text-align: center;
+}
+
+.post img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.post h3 {
+  color: var(--accent-red);
+}
+
+/* === Footer === */
+footer {
+  background: var(--primary);
+  color: var(--text-light);
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: var(--accent-yellow);
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* === Responsive Layout === */
+@media (max-width: 768px) {
+  .missions {
+    flex-direction: column;
+  }
+  .appraisal-donate {
+    flex-direction: column;
+  }
+  .post {
+    width: 90%;
+  }
+}
