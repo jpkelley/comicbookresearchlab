@@ -5,15 +5,13 @@ page-layout: full
 ---
 
 :::::: hero
-### Welcome to the Comic Book Research Lab
-
 ::::: welcome-box
 ::: welcome-images
-![](images/pic1.jpg) 
+![](images/frontpage_logo.png)
 :::
 
 ::: welcome-message
-**Welcome Message**: Our lab studies the cultural and economic history of superhero comics.
+**Welcome Message**: ### Welcome to the Comic Book Research Lab, which studies the cultural and economic history of superhero comics.
 :::
 :::::
 ::::::

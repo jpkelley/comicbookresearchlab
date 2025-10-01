@@ -8,7 +8,7 @@ website:
 
   # Top navbar: logo appears left (brand), links on the right.
   navbar:
-    logo: images/cbrl_handle_logo.png
+    logo: images/frontpage_logo.png
     left:
       - href: index.qmd
         text: "Comic Book Research Lab"
@@ -30,7 +30,7 @@ format:
     toc: true
 
 # Optional: site metadata useful for search/sharing
-site-url: "https://jpkelley.github.io/comicbookresearchlab"
+site-url: "https://github.com/jpkelley/comicbookresearchlab.git"
 description: "Research and resources about comic books and collecting."
 
 # Keep _quarto.yml small — most layout is in index.qmd + styles.css

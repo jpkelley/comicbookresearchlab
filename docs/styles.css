@@ -9,13 +9,29 @@ body {
 .navbar {
   background-color: white !important;
   border-bottom: 2px solid #638881; /* light blue accent */
+  padding-top: 0.25rem;  /* smaller top padding */
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;    /* left edge padding */
+  padding-right: 1rem;
 }
 .navbar-brand, .navbar-nav .nav-link {
   color: #333 !important;
 }
+
+.navbar-brand img {
+  height: 130px !important;  /* adjust as needed */
+  width: auto;               /* keep proportions */
+  vertical-align: middle;    /* optional: align with links */
+  max-height: 70px;      /* resize logo */
+  margin-right: 12px;    /* space between logo and links */
+}
+
 .navbar-nav .nav-link:hover {
   color: #b7443d !important; /* red hover */
 }
+
+
+
 
 /* Hero Section */
 .hero {
@@ -35,7 +51,7 @@ body {
 }
 .welcome-message {
   flex: 1;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #FFF
 }
 
