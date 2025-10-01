@@ -27,7 +27,8 @@ format:
     include-in-header: fonts.html
     theme: litera
     css: styles.css
-    toc: true
+    toc: false
+    
 
 # Optional: site metadata useful for search/sharing
 site-url: "https://github.com/jpkelley/comicbookresearchlab.git"

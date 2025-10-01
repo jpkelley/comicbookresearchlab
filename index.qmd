@@ -7,7 +7,6 @@ page-layout: full
 :::::: hero
 ::::: welcome-box
 ::: welcome-images
-![](images/frontpage_logo.png)
 :::
 
 ::: welcome-message
