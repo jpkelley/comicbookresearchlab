@@ -3,16 +3,19 @@ body {
   background-color: white;
   color: #333;
   font-family: "Open Sans", Arial, sans-serif !important;
+  font-size: 62.5%;
+  
 }
 
 /* Navbar */
 .navbar {
   background-color: white !important;
-  border-bottom: 2px solid #9bbde8; /* light blue accent */
+  border-bottom: 0px solid #9bbde8; /* light blue accent */
   padding-top: 0.25rem;  /* smaller top padding */
   padding-bottom: 0.25rem;
   padding-left: 1rem;    /* left edge padding */
   padding-right: 1rem;
+  font-size: 0.8rem;
 }
 .navbar-brand, .navbar-nav .nav-link {
   color: #333 !important;
@@ -31,28 +34,43 @@ body {
 }
 
 
-
-
 /* Hero Section */
 .hero {
-  background-color: #9bbde8;
+  background-color: #FFF;
   border-top: 5px solid #f2c772; /* yellow highlight */
   border-bottom: 5px solid #ea7165; /* red highlight */
-  padding: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+  padding-top: 0px;
 }
 .welcome-box {
   display: flex;
-  gap: 1rem;
+  gap: 0rem;
 }
+
+.welcome-images {
+  flex: 0 0 50%; /* fixed at 50% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .welcome-images img {
-  width: 100px;
   border-radius: 8px;
+  padding-top: 0px;
+  margin-top: 0rem;
+  vertical-align: center;
 }
+
 .welcome-message {
-  flex: 1;
+  flex: 0 0 50%;  /* fixed at 50% */
   font-size: 1rem;
-  color: #333
+  color: #333;
+  display: flex;
+  align-items: center;
+  padding: 0rem;
+  background-color: #9bbde8;
 }
 
 /* Missions Section */
@@ -61,10 +79,12 @@ body {
   justify-content: space-around;
   text-align: center;
   margin: 2rem 0;
+  font-size: 0.8rem;
 }
 .mission {
   flex: 1;
   margin: 0 1rem;
+  font-size: 0.8rem;
 }
 .icon {
   width: 60px;
@@ -75,22 +95,31 @@ body {
 /* Appraisal & Donate */
 .appraisal-donate {
   display: flex;
+  justify-content: space-between;
+  align-items: stretch;
   gap: 2rem;
   margin: 2rem 0;
+  font-size: 0.8rem;
 }
-.appraisal-box, .donate-box {
-  flex: 1;
-  background-color: #f2c772; /* yellow background */
+
+.appraisal-box,
+.donate-box {
+  flex: 0 0 50%;        /* take up exactly 50% each */
+  background-color: #f2c772; 
   padding: 1rem;
   border-radius: 8px;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
+  box-sizing: border-box; /* prevents padding from breaking the 50% */
 }
-.appraisal-box img, .donate-box img {
-  width: 100px;
+
+.appraisal-box img,
+.donate-box img {
+  width: 120px;
   display: block;
   margin: 0 auto 1rem;
 }
+
 
 /* Latest Work */
 .latest-work {
@@ -98,6 +127,7 @@ body {
 }
 .post {
   margin-bottom: 1.5rem;
+  font-size: 0.8rem;
 }
 .post img {
   width: 100%;

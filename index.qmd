@@ -1,61 +1,111 @@
 ---
-title: "Comic Book Research Lab"
-format: html
+title: ""
 page-layout: full
+body-classes: home
 ---
 
-:::::: hero
-::::: welcome-box
-::: welcome-images
+::: {.hero .column-screen}
+::: {.hero-shade}
+::: {.hero-copy}
+
+## New dimensions of comic book value
+
+CBRL applies scientific methods to understand, preserve, and extend the life of comic books.
+
+[OUR RESEARCH](research.qmd){.btn .btn-primary} [OUR SERVICES](services.qmd){.btn .btn-outline}
 :::
 
-::: welcome-message
-**Welcome Message**: ### Welcome to the Comic Book Research Lab, which studies the cultural and economic history of superhero comics.
+::: {.hero-card}
+**COLLECTION DECISIONS** 
+Helping you make informed choices about acquisition, storage, and care.
+
+**DATA-DRIVEN CONDITION ASSESSMENT**
+Helping us all understand measurable properties beyond visible appearance.
+
+**DATA-DRIVEN APPRAISALS WITH NO CONFLICT OF INTEREST** 
+Appraising current and predicted condition of valuable comics.
+
+**SCIENTIFIC DISCOVERY** 
+Advanced, data-driven causal modeling of how comic books age and deteriorate.
+
 :::
-:::::
-::::::
-
-:::::: missions
-## Our Mission
-
-::: mission
-![](icons/icon1.png){.icon} **Research**\
-Short blurb here.
 :::
-
-::: mission
-![](icons/icon2.png){.icon} **Appraisal**\
-Short blurb here.
 :::
 
-::: mission
-![](icons/icon3.png){.icon} **Education**\
-Short blurb here.
+::: {.three-up}
+::: {.pillar}
+<div class="round-icon">01</div>
+## Understand
+**MEASURE MATERIAL CHANGE**
+
+We quantify physical and chemical properties using imaging, chemical analysis, and mechanical measurements.
 :::
-::::::
+::: {.pillar}
+<div class="round-icon">02</div>
+## Predict
+**LINK EXPOSURE TO OUTCOMES**
 
-::::: appraisal-donate
-::: appraisal-box
-![](images/appraisal.jpg) **Need a rapid and respectful appraisal?**
+We study how environmental conditions and interventions relate to material change and future trajectories.
 :::
+::: {.pillar}
+<div class="round-icon">03</div>
+## Preserve
+**INFORM BETTER CARE**
 
-::: donate-box
-![](images/donate.jpg) **Donate for Research**
+We translate measurement and research into useful information for collectors, researchers, and institutions.
 :::
-:::::
-
-:::::: latest-work
-## Latest Work
-
-::: post
-![](images/post1.jpg) **The Aroma of Nostalgia** – short intro. [Read more »](posts/post1.qmd)
-:::
-
-::: post
-![](images/post2.jpg) **Slabbin' Profits** – short intro. [Read more »](posts/post2.qmd)
 :::
 
-::: post
-![](images/post3.jpg) **Epidemic of the Slabbed** – short intro. [Read more »](posts/post3.qmd)
+::: {.feature-grid}
+::: {.feature-image}
+![](images/research-placeholder.svg){fig-alt="Replace with a CBRL laboratory research photograph"}
 :::
-::::::
+::: {.feature-copy}
+<span class="eyebrow">FEATURED RESEARCH</span>
+## From Pages to Possibilities
+
+We combine imaging, chemical analysis, and mechanical measurements to investigate how and why comics age.
+
+[LEARN MORE](research.qmd){.btn .btn-primary}
+
+<div class="caption-rule"></div>
+*Replace this image and caption with an actual CBRL research artifact or measurement workflow.*
+:::
+:::
+
+## Our Work Covers {.section-title}
+
+::: {.work-grid}
+::: {.work-card}
+<div class="work-image img-color"></div>
+### Color & Spectral Analysis
+Quantifying visual and spectral change.
+:::
+::: {.work-card}
+<div class="work-image img-structure"></div>
+### Paper Structure
+Fibers, coatings, defects, and deformation.
+:::
+::: {.work-card}
+<div class="work-image img-chem"></div>
+### Chemical Properties
+pH and other indicators of material state.
+:::
+::: {.work-card}
+<div class="work-image img-mech"></div>
+### Mechanical Integrity
+Stiffness, flexibility, and material degradation.
+:::
+:::
+
+::: {.closing-band}
+::: {.closing-copy}
+## A Shared Commitment
+Comics connect people, ideas, and eras. CBRL works at the intersection of science and culture to help understand and preserve these physical artifacts.
+:::
+::: {.closing-mark}
+**MEASURE**  
+**UNDERSTAND**  
+**PRESERVE**
+:::
+:::
