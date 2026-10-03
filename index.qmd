@@ -8,9 +8,9 @@ body-classes: home
 ::: {.hero-shade}
 ::: {.hero-copy}
 
-## New dimensions of comic book value
+## A new era of science for collectible comics
 
-CBRL applies scientific methods to understand, preserve, and extend the life of comic books.
+CBRL brings precision measurement and causal analysis to collectible comics, revealing their material condition, investigating deterioration, and informing preservation decisions.
 
 [OUR RESEARCH](research.qmd){.btn .btn-primary} [OUR SERVICES](services.qmd){.btn .btn-outline}
 :::
