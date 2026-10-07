@@ -2,106 +2,194 @@
 title: ""
 page-layout: full
 body-classes: home
+description: "Comic Book Research Lab brings precision measurement, AI-assisted analysis, and causal research to collectible comics. Services launching January 2027."
 ---
 
 ::: {.hero .column-screen}
 ::: {.hero-shade}
 ::: {.hero-copy}
-
 ## A new era of science for collectible comics
 
-CBRL brings precision measurement and causal analysis to collectible comics, revealing their material condition, investigating deterioration, and informing preservation decisions.
+CBRL combines precision laboratory measurement, calibrated photography, artificial intelligence, and causal modeling to investigate comic-book condition, deterioration, and preservation.
 
-[OUR RESEARCH](research.qmd){.btn .btn-primary} [OUR SERVICES](services.qmd){.btn .btn-outline}
+[OUR RESEARCH](#research){.btn .btn-primary} [OUR SERVICES](#services){.btn .btn-outline}
 :::
-
 ::: {.hero-card}
-**COLLECTION DECISIONS** 
-Helping you make informed choices about acquisition, storage, and care.
+**SERVICES LAUNCHING JANUARY 2027**
+Scientific assessments for collectors, dealers, and institutions.
 
-**DATA-DRIVEN CONDITION ASSESSMENT**
-Helping us all understand measurable properties beyond visible appearance.
+**FROM INDIVIDUAL COMICS TO COLLECTIONS**
+Remote imaging, laboratory measurement, repeat monitoring, and custom research.
 
-**DATA-DRIVEN APPRAISALS WITH NO CONFLICT OF INTEREST** 
-Appraising current and predicted condition of valuable comics.
-
-**SCIENTIFIC DISCOVERY** 
-Advanced, data-driven causal modeling of how comic books age and deteriorate.
-
+**BUILT ON VALIDATED METHODS**
+Services will be introduced in phases as measurements and workflows are validated.
 :::
 :::
+:::
+
+::: {.home-section .intro-section}
+<span class="eyebrow">THE OPPORTUNITY</span>
+## Scientific insight beyond appearance
+
+Comic books began as inexpensive entertainment. Today, they are treasured memories, cultural artifacts, and valuable collectibles. Their visible condition tells only part of their story: paper chemistry, material strength, environmental exposure, and ongoing deterioration can require closer scientific investigation.
+
+CBRL will complement professional grading with measurements of material condition, comparisons with similar comics, and evidence about change through time—helping owners make informed decisions about the objects they value.
 :::
 
 ::: {.three-up}
 ::: {.pillar}
 <div class="round-icon">01</div>
-## Understand
-**MEASURE MATERIAL CHANGE**
+## Measure
+**CHARACTERIZE MATERIAL CONDITION**
 
-We quantify physical and chemical properties using imaging, chemical analysis, and mechanical measurements.
+Quantify paper, inks, color, surface features, and material integrity using standardized imaging and laboratory measurements.
 :::
 ::: {.pillar}
 <div class="round-icon">02</div>
-## Predict
-**LINK EXPOSURE TO OUTCOMES**
+## Understand
+**INVESTIGATE HOW COMICS CHANGE**
 
-We study how environmental conditions and interventions relate to material change and future trajectories.
+Study how age, materials, storage, and treatments contribute to deterioration and differences among comics.
 :::
 ::: {.pillar}
 <div class="round-icon">03</div>
 ## Preserve
-**INFORM BETTER CARE**
+**INFORM COLLECTION CARE**
 
-We translate measurement and research into useful information for collectors, researchers, and institutions.
-:::
-:::
-
-::: {.feature-grid}
-::: {.feature-image}
-![](images/research-placeholder.svg){fig-alt="Replace with a CBRL laboratory research photograph"}
-:::
-::: {.feature-copy}
-<span class="eyebrow">FEATURED RESEARCH</span>
-## From Pages to Possibilities
-
-We combine imaging, chemical analysis, and mechanical measurements to investigate how and why comics age.
-
-[LEARN MORE](research.qmd){.btn .btn-primary}
-
-<div class="caption-rule"></div>
-*Replace this image and caption with an actual CBRL research artifact or measurement workflow.*
+Translate scientific evidence into clearer information about storage, treatments, and preservation decisions.
 :::
 :::
 
-## Our Work Covers {.section-title}
+::: {.home-section .research-section #research}
+<span class="eyebrow">THE SCIENCE</span>
+## A comic is a measurable physical system
 
-::: {.work-grid}
-::: {.work-card}
-<div class="work-image img-color"></div>
-### Color & Spectral Analysis
-Quantifying visual and spectral change.
+::: {.research-layout}
+::: {.measurement-art role="img" aria-label="Conceptual illustration of comic-book material measurements"}
+<!-- Optional image: images/cbrl-measurements.png, 1500 x 1000 pixels. CSS provides a fallback until added. -->
+<div class="measurement-fallback"><span>CHEMISTRY · COLOR · SURFACE</span><strong>A comic's material story</strong><span>FLUORESCENCE · STRUCTURE · STRENGTH</span><small>Measured within its storage environment</small></div>
 :::
-::: {.work-card}
-<div class="work-image img-structure"></div>
-### Paper Structure
-Fibers, coatings, defects, and deformation.
+::: {.research-copy}
+### From measurement to evidence
+
+CBRL will connect calibrated imaging and laboratory assays with controlled experiments and repeated measurements. AI-assisted analysis will extract image features for validation against laboratory measurements. Causal models will guide investigations of how exposures and treatments affect comic-book materials.
+
+The research program distinguishes **description, prediction, and causal inference**: what we can measure, forecast, and attribute to an exposure or intervention. Comparisons and forecasts will include uncertainty and remain within the materials and conditions supported by validation.
 :::
-::: {.work-card}
-<div class="work-image img-chem"></div>
-### Chemical Properties
-pH and other indicators of material state.
 :::
-::: {.work-card}
-<div class="work-image img-mech"></div>
-### Mechanical Integrity
-Stiffness, flexibility, and material degradation.
+
+::: {.domain-strip}
+**Chemistry** · **Color & spectra** · **Surface** · **UV fluorescence** · **Paper structure** · **Mechanical integrity** · **Storage environment**
 :::
+
+### Questions driving our research
+
+- How do humidity and temperature interact to affect deterioration?
+- Can pressing or chemical brightening alter material properties while improving appearance?
+- Why do historical paper stocks respond differently to the same exposures?
+- How could alternative storage or treatment choices affect future condition?
+:::
+
+::: {.home-section .services-section #services}
+<span class="eyebrow">PLANNED SERVICES</span>
+## Six ways to understand and care for your comics
+
+**Services launching January 2027**, with availability expanding as methods are validated.
+
+::: {.service-grid}
+::: {.service-card}
+<div class="service-icon icon-basic" aria-hidden="true"><span>01</span></div>
+### CBRL BASIC
+**Digital Assessment**
+
+Standardized customer photographs, calibration, and validated image-based measurements for remote assessment.
+:::
+::: {.service-card}
+<div class="service-icon icon-lab" aria-hidden="true"><span>02</span></div>
+### CBRL LAB
+**Physical Assessment**
+
+Controlled imaging, microscopy, spectroscopy, and validated physical and chemical measurements to investigate material condition.
+:::
+::: {.service-card}
+<div class="service-icon icon-monitor" aria-hidden="true"><span>03</span></div>
+### CBRL MONITOR
+**Change Through Time**
+
+Repeat assessments to detect change against a comic's own measurement history and relevant reference data.
+:::
+::: {.service-card}
+<div class="service-icon icon-collections" aria-hidden="true"><span>04</span></div>
+### CBRL COLLECTIONS
+**Collection Assessment**
+
+Sampling and analysis to characterize condition, variation, and preservation concerns across collections.
+:::
+::: {.service-card}
+<div class="service-icon icon-preservation" aria-hidden="true"><span>05</span></div>
+### CBRL PRESERVATION
+**Storage & Environment**
+
+Evaluation of storage conditions, protective materials, encapsulation, and preservation practices.
+:::
+::: {.service-card}
+<div class="service-icon icon-research" aria-hidden="true"><span>06</span></div>
+### CBRL RESEARCH
+**Custom Research & Testing**
+
+Designed experiments and analytical studies for commercial, institutional, and research partners.
+:::
+:::
+
+::: {.audience-note}
+For collectors, dealers, auction houses, estates, insurers, archives, libraries, museums, grading companies, and preservation-product manufacturers. Planned revenue spans per-book and batch assessments, recurring monitoring, collection projects, consulting, and contract research.
+:::
+:::
+
+::: {.home-section .foundation-section #foundation}
+<span class="eyebrow">THE RESEARCH FOUNDATION</span>
+## Built on specimens, science, and data
+
+::: {.metrics-grid}
+::: {.metric}
+**~1,500**
+Founder-owned research comics
+:::
+::: {.metric}
+**295**
+Issues designated for destructive research
+:::
+::: {.metric}
+**25 years**
+Of scientific research experience
+:::
+:::
+
+CBRL begins with a curated collection spanning **1940–1994**, dedicated workspace, laboratory and calibrated photography equipment, AI computing infrastructure, and founder labor. Designated research specimens support destructive testing to validate non-destructive and minimally invasive assessment methods.
+
+### A reference dataset that grows with every comic
+
+Standardized assessments, laboratory validation, repeated measurements, and controlled experiments will build the **CBRL Reference Dataset**. It will connect material measurements with publication period, storage, treatments, and change through time. Each study will strengthen comparative benchmarks and better-tested models, creating a cumulative research advantage. A planned Research Donation and Contributor Program will help expand the specimens available for testing.
+
+:::
+
+::: {.home-section .founder-section #founder}
+<span class="eyebrow">THE FOUNDER</span>
+## Meet the scientist behind CBRL
+
+**Patrick Kelley, Ph.D.**, is a research scientist, laboratory director, quantitative ecologist, and longtime comic collector with approximately 25 years of scientific experience. His research programs have received **more than $6 million in cumulative support**, and his work has appeared in journals including *Science* and *Proceedings of the National Academy of Sciences*.
+
+With a Ph.D. from the University of California, Davis, and an A.B. from Harvard University, Kelley brings expertise in experimental science, instrumentation, artificial intelligence, and causal inference. His early training at Harvard's Straus Center for Conservation and Technical Studies included hands-on scientific examination of cultural materials. CBRL connects that experience with decades of research and firsthand familiarity with comic collecting.
 :::
 
 ::: {.closing-band}
 ::: {.closing-copy}
-## A Shared Commitment
-Comics connect people, ideas, and eras. CBRL works at the intersection of science and culture to help understand and preserve these physical artifacts.
+<span class="eyebrow">LOOKING AHEAD</span>
+## Services launching January 2027
+
+Interested in an assessment, collection project, research partnership, or contribution of research specimens? Contact CBRL to discuss your interests ahead of launch. Services will be introduced in phases as methods and workflows are validated.
+
+[CONTACT CBRL](contact.qmd){.btn .btn-primary}
 :::
 ::: {.closing-mark}
 **MEASURE**  

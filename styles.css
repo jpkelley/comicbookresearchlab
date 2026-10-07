@@ -519,3 +519,116 @@ body.home #title-block-header {
     padding: 1.25rem;
   }
 }
+
+/* =========================================================
+   PRELIMINARY HOMEPAGE — body sections only.
+   Existing navbar and hero rules above remain unchanged.
+   Optional images fall back to text/number graphics.
+   ========================================================= */
+.home-section {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  scroll-margin-top: 120px;
+}
+.home-section h2 {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  color: var(--ink);
+  font-size: clamp(1.6rem, 3vw, 2.15rem);
+  margin-top: .5rem;
+  border: 0;
+  padding-bottom: 0;
+}
+.home-section h3 { color: var(--ink); font-size: 1.1rem; }
+.home-section p { max-width: 100%; }
+.intro-section { padding-bottom: 0; }
+.research-section, .foundation-section {
+  background: #f2efe8;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.research-layout {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+.measurement-art {
+  aspect-ratio: 3 / 2;
+  background: var(--paper) url('images/cbrl-measurements.png') center / contain no-repeat;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+}
+.measurement-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--ink);
+}
+.measurement-fallback strong {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  color: var(--rust);
+}
+.measurement-fallback span { font-size: .75rem; letter-spacing: .06em; }
+.measurement-fallback small { color: var(--muted); }
+/* When adding cbrl-measurements.png, hide the fallback with:
+   .measurement-fallback { display: none; }
+*/
+.domain-strip { padding: 1rem 0; border-top: 1px solid var(--line); font-size: .88rem; }
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.service-card { padding: 1.4rem; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+.service-card h3 { margin: .8rem 0 .2rem; font-size: 1rem; }
+.service-card > p { font-size: .9rem; margin: .45rem 0 0; }
+.service-card > p > strong { color: var(--rust); font-size: .85rem; }
+.service-icon {
+  width: 64px;
+  height: 64px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--ink);
+  background-color: #e8e9e6;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: 700;
+}
+.icon-basic { background-image: url('images/icon-basic.png'); }
+.icon-lab { background-image: url('images/icon-lab.png'); }
+.icon-monitor { background-image: url('images/icon-monitor.png'); }
+.icon-collections { background-image: url('images/icon-collections.png'); }
+.icon-preservation { background-image: url('images/icon-preservation.png'); }
+.icon-research { background-image: url('images/icon-research.png'); }
+/* Optional icons: hide a number only after adding its corresponding image,
+   e.g. .icon-basic span { display: none; }
+*/
+.audience-note { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 1rem; }
+.metrics-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.metric { padding: 1.2rem; background: var(--paper); border: 1px solid var(--line); }
+.metric p { margin: 0; font-size: .88rem; }
+.metric strong { display: block; color: var(--rust); font-size: 2rem; margin-bottom: .35rem; }
+.founder-section { padding-bottom: 3rem; }
+@media (max-width: 800px) {
+  .research-layout { grid-template-columns: 1fr; }
+  .service-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .home-section { padding: 2rem 1.5rem; }
+  .intro-section { padding-bottom: 0; }
+}
+@media (max-width: 540px) {
+  .service-grid, .metrics-grid { grid-template-columns: 1fr; }
+}
