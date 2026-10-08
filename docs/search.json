@@ -12,6 +12,7 @@
     "title": "Comic Book Research Lab",
     "section": "",
     "text": "CBRL combines precision laboratory measurement, calibrated photography, artificial intelligence, and causal modeling to investigate comic-book condition, deterioration, and preservation.\nOUR RESEARCH OUR SERVICES"
+<<<<<<< HEAD
   },
   {
     "objectID": "index.html#measure",
@@ -19,6 +20,8 @@
     "title": "Comic Book Research Lab",
     "section": "Measure",
     "text": "Measure\nCHARACTERIZE MATERIAL CONDITION\nQuantify paper, inks, color, surface features, and material integrity using standardized imaging and laboratory measurements."
+=======
+>>>>>>> 1cb968a238f682c858e82183a51e066ecec3a300
   },
   {
     "objectID": "index.html#understand",
@@ -26,6 +29,16 @@
     "title": "Comic Book Research Lab",
     "section": "Understand",
     "text": "Understand\nINVESTIGATE HOW COMICS CHANGE\nStudy how age, materials, storage, and treatments contribute to deterioration and differences among comics."
+<<<<<<< HEAD
+=======
+  },
+  {
+    "objectID": "index.html#predict",
+    "href": "index.html#predict",
+    "title": "Comic Book Research Lab",
+    "section": "Predict",
+    "text": "Predict\nLINK EXPOSURE TO OUTCOMES\nWe study how environmental conditions and interventions relate to material change and future trajectories."
+>>>>>>> 1cb968a238f682c858e82183a51e066ecec3a300
   },
   {
     "objectID": "index.html#preserve",
@@ -33,6 +46,23 @@
     "title": "Comic Book Research Lab",
     "section": "Preserve",
     "text": "Preserve\nINFORM COLLECTION CARE\nTranslate scientific evidence into clearer information about storage, treatments, and preservation decisions."
+<<<<<<< HEAD
+=======
+  },
+  {
+    "objectID": "index.html#our-work-covers",
+    "href": "index.html#our-work-covers",
+    "title": "Comic Book Research Lab",
+    "section": "Our Work Covers",
+    "text": "Our Work Covers\n\n\n\n\n\n\nColor & Spectral Analysis\nQuantifying visual and spectral change.\n\n\n\n\n\n\n\nPaper Structure\nFibers, coatings, defects, and deformation.\n\n\n\n\n\n\n\nChemical Properties\npH and other indicators of material state.\n\n\n\n\n\n\n\nMechanical Integrity\nStiffness, flexibility, and material degradation."
+  },
+  {
+    "objectID": "index.html#a-shared-commitment",
+    "href": "index.html#a-shared-commitment",
+    "title": "Comic Book Research Lab",
+    "section": "A Shared Commitment",
+    "text": "A Shared Commitment\nComics connect people, ideas, and eras. CBRL works at the intersection of science and culture to help understand and preserve these physical artifacts."
+>>>>>>> 1cb968a238f682c858e82183a51e066ecec3a300
   },
   {
     "objectID": "about.html",
@@ -40,5 +70,12 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\nMotivations\nAs"
+  },
+  {
+    "objectID": "index.html#measure",
+    "href": "index.html#measure",
+    "title": "Comic Book Research Lab",
+    "section": "Measure",
+    "text": "Measure\nCHARACTERIZE MATERIAL CONDITION\nQuantify paper, inks, color, surface features, and material integrity using standardized imaging and laboratory measurements."
   }
 ]
